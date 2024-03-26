@@ -40,8 +40,9 @@ public class Tile {
     }
 
     
-     * Bag
-     */
+/*
+ * Bag
+ */
     public static class Bag {
 
         private static final int[] SCORES = {
@@ -144,9 +145,7 @@ public class Tile {
             if(SingleBag==null){
                 SingleBag = new Bag();
             }
-            else{
-                return SingleBag;
-            }
+            return SingleBag;
         }
 
 }
